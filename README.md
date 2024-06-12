@@ -28,16 +28,22 @@ This project is designed to help users estimate the price of homes in various lo
 
 ```plaintext
 Bengaluru-Home-Price-Prediction/
-├── artifacts/
+├── model/
 │   ├── bengaluru_house_prices_model.pickle
+│   ├── bengaluru_house_prices.ipynb
 │   └── columns.json
-├── static/
+├── client/
+│   ├── app.html
+│   ├── app.css
 │   ├── app.js
-│   └── app.css
-├── templates/
-│   └── app.html
-├── app.py
-└── util.py
+│   └── bunglow.jpg
+├── server/
+│   ├── artifacts/
+│   │   ├── bengaluru_house_prices_model.pickle
+│   │   └── columns.json
+|   ├── app.py
+|   └── util.py
+└── bengaluru_house_prices.csv
 ```
 
 ## Key Features
@@ -72,6 +78,3 @@ Bengaluru-Home-Price-Prediction/
 - **Get Location Names**: `/get-location-names` (GET)
 - **Predict Home Price**: `/predict-home-price` (POST)
 
----
-
-Feel free to modify the repository URL and other details as necessary.
