@@ -67,6 +67,7 @@ Bengaluru-Home-Price-Prediction/
 
 3. **Run the Flask server**:
     ```bash
+    cd server
     python app.py
     ```
 
