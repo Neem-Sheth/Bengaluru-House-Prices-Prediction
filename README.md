@@ -21,6 +21,7 @@ This project is designed to help users estimate the price of homes in various lo
 - **Frameworks**: Flask
 - **Libraries**: 
   - For Data Science: numpy, scikit-learn
+  - For Data Visualization: matplotlib
   - For Frontend: jQuery
 - **Others**: HTML, CSS
 
